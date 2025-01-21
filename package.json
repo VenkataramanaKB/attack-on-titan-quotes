@@ -1,0 +1,25 @@
+{
+  "name": "attack-on-titans-quotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "An API that provides random Attack on Titan quotes.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Attack on Titan",
+    "quotes",
+    "anime",
+    "API",
+    "random quotes",
+    "express"
+  ],
+  "author": "Venkataramana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
