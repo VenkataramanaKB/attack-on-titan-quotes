@@ -1,5 +1,6 @@
-const app = require("./index");
+const { quotes } = require('./quotes');
 
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+module.exports = (req, res) => {
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  res.json(randomQuote);
+};
