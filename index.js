@@ -19,9 +19,6 @@ app.get("/quote", (req, res) => {
     const randomQuote = quotes[randomIndex];
     res.json(randomQuote);
 });
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "documentation/build", "index.html"));
-});
 
 
 module.exports = app;
