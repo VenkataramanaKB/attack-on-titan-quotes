@@ -2,7 +2,8 @@ const express = require("express");
 const quotes = require("./quotes");
 
 const app = express();
-
+const cors = require('cors');
+app.use(cors()); // Allow all origins
 
 let lastQuoteIndex = -1;
 
