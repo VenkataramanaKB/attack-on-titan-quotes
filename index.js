@@ -3,8 +3,6 @@ const quotes = require("./quotes");
 
 const app = express();
 
-const cors = require('cors');
-app.use(cors());
 
 let lastQuoteIndex = -1;
 
