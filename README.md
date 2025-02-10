@@ -18,8 +18,8 @@ When you call the API, it returns a JSON object containing a quote and its autho
 
 ```json
 {
-  "quote": "If you win, you live. If you lose, you die. If you don’t fight, you can’t win!",
-  "author": "Eren Yeager"
+        "author": "Hange Zoë",
+        "quote": "You Understand, Don’t You? One Day Or Another, Everyone You Care About Eventually Dies. It’s Something We Simply Can’t Accept. It’s A Realization That Could Drive You Insane."
 }
 ```
 
@@ -47,9 +47,9 @@ Want to make this API even better? You can contribute by adding more quotes! Her
 
    ```js
    {
-     quote: "This world is cruel. And also, very beautiful.",
-     author: "Mikasa Ackerman"
-   }
+        "author": "Kenny Ackerman",
+        "quote": "Everyone Had To Be Drunk On Somethin’ To Keep Pushing On … Everyone Was A Slave To Something."
+    }
    ```
 
 5. **Commit your changes**:
