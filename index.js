@@ -22,5 +22,4 @@ app.get("/quote", (req, res) => {
     res.json(randomQuote);
 });
 
-
 module.exports = app;
